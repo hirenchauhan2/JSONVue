@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "JSONVue",
+  "description": "This extension shows JSON data in tree view using VueJS component vue-json-tree-view",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "128": "Icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["manifest.js", "vendor.js", "app.js"]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
