@@ -10,7 +10,8 @@
   },
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
-    "js": ["manifest.js", "vendor.js", "app.js"]
+    "js": ["manifest.js", "vendor.js", "app.js"],
+    "css": ["app.css"]
   }],
   "permissions": [
     "activeTab"
