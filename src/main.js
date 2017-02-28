@@ -38,7 +38,7 @@ function init (json) {
         init(json)
       }
     } catch (e) {
-      console.log('Not a JSON', json)
+      // Not a JSON document leave as it is.
     }
   }
 })()
