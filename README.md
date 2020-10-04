@@ -4,7 +4,7 @@
 ### See the Extension in Action!
 * Clone the Code.
 * Build the Code.
-* After the COde is Built - 
+* After the Code is built 
     * Go to Chorme Extensions
     * Enable the Developer Mode
     * Click on **Load Unpacked**
