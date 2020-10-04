@@ -4,21 +4,10 @@
   </div>
 </template>
 
-<style>
-.tree-view-item-value-number {
-   color: green;
- }
- .tree-view-item-value-string {
-   color: blue;
- }
- .tree-view-item-value-boolean {
-   color: violet;
- }
-</style>
-<script>
 
+<script>
 export default {
-  name: 'app',
-  props: ['json']
-}
+  name: "app",
+  props: ["json"],
+};
 </script>
