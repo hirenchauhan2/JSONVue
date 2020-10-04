@@ -1,6 +1,6 @@
-var utils = require('./utils')
-var config = require('../config')
-var isProduction = process.env.NODE_ENV === 'production'
+var utils = require("./utils");
+var config = require("../config");
+var isProduction = process.env.mode === "production";
 
 module.exports = {
   loaders: utils.cssLoaders({
@@ -10,8 +10,8 @@ module.exports = {
     extract: isProduction
   }),
   postcss: [
-    require('autoprefixer')({
-      browsers: ['last 2 versions']
+    require("autoprefixer")({
+      overrideBrowserslist: ["last 2 versions"]
     })
   ]
-}
+};
